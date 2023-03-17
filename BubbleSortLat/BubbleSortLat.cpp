@@ -51,13 +51,9 @@ void bubbleSortArray() {                         // Prosedur untuk mengurutkan a
 }
 
 
-
-
-
-
-
-
-int main()
-{
-    std::cout << "Hello World!\n";
+int main(){
+    input();                //memanggil read()
+    bubbleSortArray();      //memanggil bubbleSortArray
+    display();              //memanggil display
+    return 0;
 }
